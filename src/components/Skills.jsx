@@ -8,7 +8,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="skills" id="skills">
+    <div className={`skills`} id="skills">
       <h4>Skills / Progress</h4>
       <h1><b>My Development Skills</b></h1>
       <h5>

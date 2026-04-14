@@ -1,6 +1,6 @@
 export default function Projects() {
     return (
-        <div className="projects" id="portfolios">
+        <div className={`projects`} id="portfolios">
             <h1>My Projects</h1>
             <div className="showcases">
                 <div className="project">

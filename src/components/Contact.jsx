@@ -5,7 +5,7 @@ import Instagram from '../Images/Instagram.png';
 import Facebook from '../Images/Facebook.png';
 import Whatsapp from '../Images/whatsapp.png';
 
-export default function Contact() {
+export default function Contact(){
     const [form, setForm] = useState({
         name: "",
         email: "",
@@ -32,11 +32,11 @@ export default function Contact() {
     }
 
     return (
-        <div className="contact" id="contacts">
+        <div className={`contact`} id="contacts">
             <h1><b>Contact Me</b></h1>
             <p>Feel free to reach out to me for any inquiries, collaborations, or just to say hello!</p>
             <div className="contact-info">
-                <p><b>Gmail</b> <a href="ankit786v@gmail.com"><img src={gmail} alt="Gmail" /></a></p>
+                <p><b>Gmail</b> <a href="mailto:ankit786v@gmail.com"><img src={gmail} alt="Gmail" /></a></p>
                 <p><b>Phone</b> <a href="tel:+919179041718"><img src={phone} alt="Phone" /></a></p>
                 <p><b>Instagram</b> <a href="https://www.instagram.com/hii_ankit_here"><img src={Instagram} alt="Instagram" /></a></p>
                 <p><b>Facebook</b> <a href="https://www.facebook.com/profile.php?id=100006183586426"><img src={Facebook} alt="Facebook" /></a></p>

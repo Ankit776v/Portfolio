@@ -1,6 +1,6 @@
 export default function Pricing() {
     return (
-        <div className="pricing" id="pricings">
+        <div className={`pricing`} id="pricings">
             <h1><b>My Pricing</b></h1>
             <div className="pricing-table">
                 <div className="pricing-option">

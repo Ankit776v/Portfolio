@@ -642,7 +642,7 @@ a img:hover {
 }
 
 .contact {
-  height: 110vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   align-items: center;
